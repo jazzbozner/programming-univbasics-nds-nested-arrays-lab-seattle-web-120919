@@ -24,10 +24,28 @@ def assembled_matrix
 end
 
 def array_literal_matrix
+<<<<<<< HEAD
   school =[ 
   ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"].sort,
   ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Michael Pemulis"].sort
   ]
+=======
+  [[
+  "Don Gately",
+  "Joelle van Dyne",
+  "Pat M.",
+  "Kate Gompert",
+  "Bruce Green"
+],[
+  "Hal Incandenza",
+  "Lyle",
+  "Gerhard Schtitt",
+  "Mario Incandenza",
+  "Michael Pemulis"
+]
+]
+array_literal_matrix.sort
+>>>>>>> cb20c7d8fb0b7f84e4cf90c2b0da21463fd0fc70
   # Using Array literal syntax only, build a nested array that uses the data in
   # side the ENNET_HOUSE and ENFIELD_TENNIS_ACADEMY Arrays but sorts
   # alphabetically by the first character.
